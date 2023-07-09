@@ -1,0 +1,43 @@
+import { BrowserRouter as Router, Route, Routes } from "react-router-dom";
+import ShowBuses from "./pages/ShowBuses";
+import Info from "./pages/Info";
+import HomePage from "./pages/HomePage";
+import Receipt from "./pages/Receipt";
+import NotFound from "./pages/NotFound";
+import { useEffect } from "react";
+import { setBusData } from "./redux/slicer";
+import { useDispatch } from "react-redux";
+import Register from "./pages/Register";
+import Login from "./pages/Login";
+
+function App() {
+  const dispatch = useDispatch();
+
+  useEffect(() => {
+    const fetchData = async () => {
+      const result = await fetch(`http://localhost:5000/api/buses`);
+      const data = await result.json();
+      // console.log(data)
+      dispatch(setBusData(data));
+    };
+    fetchData();
+  }, []);
+
+  return (
+    <div className="">
+      <Router>
+        <Routes>
+          <Route path="/" element={<HomePage />} />
+          <Route path="/showbuses" element={<ShowBuses />} />
+          <Route path="/info" element={<Info />} />
+          <Route path="/receipt" element={<Receipt />} />
+          <Route path="/register" element={<Register />} />
+          <Route path="/login" element={<Login />} />
+          <Route path="*" element={<NotFound />} />
+        </Routes>
+      </Router>
+    </div>
+  );
+}
+
+export default App;

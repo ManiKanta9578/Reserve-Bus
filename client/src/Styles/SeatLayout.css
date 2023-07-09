@@ -1,0 +1,12 @@
+@media (max-width: 600px) {
+    .seat {
+      height: 15px;
+      width: 30px;
+    }
+
+    .innerBox {
+      height: 8%;
+      width: 6px;
+      margin-right: 3px;
+    }
+  }
