@@ -25,9 +25,9 @@ const BusInfo = ({selectedBus}) => {
               <p>AC Sleeper(2+1)</p>
             </div>
             <div className="flex gap-2.5">
-              <p>{`${selectedBus.DepartureTime}, ${selectedDate} `}</p>
+              <p>{`${selectedDate}, ${selectedBus.DepartureTime}  `}</p>
               <p> --- 07 hrs 58 min ---</p>
-              <p> {`${selectedBus.ArrivalTime}, ${selectedDate}`} </p>
+              <p> {`${selectedBus.ArrivalTime}`} </p>
             </div>
             <div className="flex gap-3">
               <p>{selectedBus.Source}</p>
