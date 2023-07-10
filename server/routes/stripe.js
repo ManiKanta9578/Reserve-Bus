@@ -7,7 +7,7 @@ router.post('/create-checkout-session', async (req, res) => {
   const {selectedSeats} = req.body;
   
   const line_items = [{
-      price:'price_1NOcMBSCjiyTSO3kdVYpmuB9',
+      price:'price_1NRe1OSCjiyTSO3kEBChZqmY',
       quantity:parseInt(selectedSeats.length),
   }]
 

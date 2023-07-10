@@ -196,13 +196,13 @@ const ReceiptPage = () => {
                 </div>
               </div>
               
-              <p className="text-slate-600">
-                      AC Sleeper(2+1) | Seats left
+              <p className="text-slate-600"> AC Sleeper(2+1) | Seats left
                     </p>
+                    <h3> {selectedDate} </h3>
 
               <div className="flex gap-4">
-                <h1 className="sm:text-lg text-sm font-normal self-center text-gray-700">
-                  {`${selectedBus.DepartureTime}, ${selectedDate}`}
+                <h1 className="sm:text-sm text-xs font-normal self-center text-gray-700">
+                  {`${selectedBus.DepartureTime}`}
                 </h1>
                 
                 ---
@@ -211,7 +211,7 @@ const ReceiptPage = () => {
                 </h1>
                 ---
                 <h1 className="sm:text-lg text-sm font-normal self-center text-gray-700">
-                  {`${selectedBus.ArrivalTime}, ${selectedDate} ` } 
+                  {`${selectedBus.ArrivalTime}` } 
                 </h1>
               </div>
               <div className="flex justify-between">

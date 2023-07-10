@@ -7,8 +7,8 @@ import NotFound from "./pages/NotFound";
 import { useEffect } from "react";
 import { setBusData } from "./redux/slicer";
 import { useDispatch } from "react-redux";
-import Register from "./pages/Register";
-import Login from "./pages/Login";
+import LoginPage from "./pages/LoginPage";
+import RegisterPage from "./pages/Register";
 
 function App() {
   const dispatch = useDispatch();
@@ -31,8 +31,8 @@ function App() {
           <Route path="/showbuses" element={<ShowBuses />} />
           <Route path="/info" element={<Info />} />
           <Route path="/receipt" element={<Receipt />} />
-          <Route path="/register" element={<Register />} />
-          <Route path="/login" element={<Login />} />
+          <Route path="/register" element={<RegisterPage />} />
+          <Route path="/login" element={<LoginPage />} />
           <Route path="*" element={<NotFound />} />
         </Routes>
       </Router>
