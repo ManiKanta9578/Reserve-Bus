@@ -17,7 +17,7 @@ export default function NavBar() {
           </ul>
           <ul className='flex sm:gap-10 gap-3'>
             <p  className='text-xs cursor-pointer sm:text-base sm:font-medium bg-orange-400 text-white rounded-md  p-2 pl-3 pr-3'><a href="/login">Login</a></p>
-            <p  className='text-xs cursor-pointer sm:text-base self-center sm:font-medium'><a href="/register">Register</a></p>
+            {/* <p  className='text-xs cursor-pointer sm:text-base self-center sm:font-medium'><a href="/register">Register</a></p> */}
           </ul>
         </div>
     </div>
