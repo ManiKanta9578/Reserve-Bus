@@ -17,7 +17,7 @@ function App() {
     const fetchData = async () => {
       const result = await fetch(`http://localhost:5000/api/buses`);
       const data = await result.json();
-      // console.log(data)
+      console.log(data)
       dispatch(setBusData(data));
     };
     fetchData();
