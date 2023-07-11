@@ -15,7 +15,7 @@ function App() {
 
   useEffect(() => {
     const fetchData = async () => {
-      const result = await fetch(`https://reserve-bus-h7eg.onrender.com/api/buses`);
+      const result = await fetch(`http://localhost:5000/api/buses`);
       const data = await result.json();
       console.log(data)
       dispatch(setBusData(data));

@@ -10,7 +10,7 @@ import { useDispatch, useSelector } from "react-redux";
 import axios from "axios";
 import NavBar from "../components/NavBar";
 import Footer from "../components/Footer";
-const url = "https://reserve-bus-h7eg.onrender.com//api";
+const url = "http://localhost:5000/api";
 
 const Info = () => {
   const dispatch = useDispatch();
