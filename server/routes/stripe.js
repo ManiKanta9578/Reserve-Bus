@@ -4,6 +4,7 @@ const stripe = require("stripe")(process.env.STRIPE_KEY);
 
 
 router.post('/create-checkout-session', async (req, res) => {
+  console.log("Stripe triggered")
   const {selectedSeats} = req.body;
   
   const line_items = [{

@@ -4,6 +4,7 @@ const Receipt = require("../models/Receipt");
 
 // POST route to save receipt data
 router.post("/", async (req, res) => {
+  console.log("Receipt POST Triggered");
   const { passengerDetails, contactDetails, selectedBus, selectedSeats, selectedDate } = req.body;
 
   try {
@@ -25,6 +26,7 @@ router.post("/", async (req, res) => {
 
 // GET route to retrieve receipt data
 router.get("/", async (req, res) => {
+  console.log("Receipt GET triggered")
   try {
     const receipts = await Receipt.find().sort({ _id: -1 });
     res.json(receipts);

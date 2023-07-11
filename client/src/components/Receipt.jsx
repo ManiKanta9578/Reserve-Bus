@@ -201,7 +201,7 @@ const ReceiptPage = () => {
                     <h3> {selectedDate} </h3>
 
               <div className="flex gap-4">
-                <h1 className="sm:text-sm text-xs font-normal self-center text-gray-700">
+                <h1 className="sm:text-lg text-sm font-normal self-center text-gray-700">
                   {`${selectedBus.DepartureTime}`}
                 </h1>
                 
