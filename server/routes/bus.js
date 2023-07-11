@@ -1,37 +1,12 @@
-const Bus = require("../models/Bus");
-
+// const Bus = require("../models/Bus");
+const {getTrips,addTrip} = require("../controllers/busController.js");
 const router = require("express").Router();
 
 //POST new trip
-router.post("/", async (req, res) => {
-  const newBus = new Bus(req.body);
-
-  try {
-    const savedBus = await newBus.save();
-    // Setting response header
-    res.setHeader("Content-Type", "application/json");
-    // Send the saved trip as a JSON response with a 200 status code
-    res.status(200).json(savedBus);
-  } catch (err) {
-    // If an error occurs, send a 500 status code with the error message
-    res.status(500).json(err);
-  }
-});
+router.post("/", addTrip);
 
 // GET All Tripes
-router.get("/", async (req, res) => {
-  console.log("API Triggred")
-  try {
-    let buses = await Bus.find().limit(50);
-    // Set response header
-    res.setHeader("Content-Type", "application/json");
-    // Send the saved trip as a JSON response with a 200 status code
-    res.status(200).json(buses);
-  } catch (err) {
-    // If an error occurs, send a 500 status code with the error message
-    res.status(500).json(err);
-  }
-});
+router.get("/", getTrips );
 
 
 module.exports = router;

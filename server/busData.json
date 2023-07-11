@@ -1,0 +1,373 @@
+[
+  {
+    "BusNo": "AP AB 121",
+    "BusName": "Inter City  Bus",
+    "Source": "Visakhapatnam",
+    "Destination": "Hyderabad",
+    "Date": "2023-07-01",
+    "DepartureTime": "23:00 ",
+    "ArrivalTime": "07:00 ",
+    "Fare": "100"  },
+  {
+    "BusNo": "AP AB 1223",
+    "BusName": "Inter City Smart Bus",
+    "Source": "Visakhapatnam",
+    "Destination": "Hyderabad",
+    "Date": "2023-07-01",
+    "DepartureTime": "22:00 ",
+    "ArrivalTime": "12:00 ",
+    "Fare": "100"  },
+  {
+    "BusNo": "AP AB 2123",
+    "BusName": "Inter City Smart Bus",
+    "Source": "Visakhapatnam",
+    "Destination": "Hyderabad",
+    "Date": "2023-07-01",
+    "DepartureTime": "22:00 ",
+    "ArrivalTime": "12:00 ",
+    "Fare": "100"
+  },
+  {
+    "BusNo": "TS AB 1234",
+    "BusName": "Inter City Smart Bus",
+    "Source": "Visakhapatnam",
+    "Destination": "Hyderabad",
+    "Date": "2023-07-01",
+    "DepartureTime": "11:00 ",
+    "ArrivalTime": "18:00 ",
+    "Fare": "200"
+  },
+  {
+    "BusNo": "AP DE 456",
+    "BusName": "Inter City Bus",
+    "Source": "Hyderabad",
+    "Destination": "Visakhapatnam",
+    "Date": "2023-07-01",
+    "DepartureTime": "1:00 ",
+    "ArrivalTime": "3:00 ",
+    "Fare": "250"
+  },
+  {
+    "BusNo": "GHI789",
+    "BusName": "Inter City Smart Bus",
+    "Source": "Hyderabad",
+    "Destination": "Bangalore",
+    "Date": "2023-03-31",
+    "DepartureTime": "8:00 ",
+    "ArrivalTime": "12:00 ",
+    "Fare": "300"
+  },
+  {
+    "BusNo": "JKL012",
+    "BusName": "Inter City Bus",
+    "Source": "Bangalore",
+    "Destination": "Hyderabad",
+    "Date": "2023-03-31",
+    "DepartureTime": "1:00 ",
+    "ArrivalTime": "5:00 ",
+    "Fare": "350"
+  },
+  {
+    "BusNo": "DEF45",
+    "BusName": "Inter City Bus",
+    "Source": "Hyderabad",
+    "Destination": "Visakhapatnam",
+    "Date": "2023-07-01",
+    "DepartureTime": "1:00 ",
+    "ArrivalTime": "3:00 ",
+    "Fare": "250"
+  },
+  {
+    "BusNo": "DEF46",
+    "BusName": "Jhelum City Bus",
+    "Source": "Hyderabad",
+    "Destination": "Visakhapatnam",
+    "Date": "2023-07-01",
+    "DepartureTime": "1:00 ",
+    "ArrivalTime": "3:00 ",
+    "Fare": "215"
+  },
+  {
+    "BusNo": "DEF56",
+    "BusName": "Govinda Smart Bus",
+    "Source": "Hyderabad",
+    "Destination": "Visakhapatnam",
+    "Date": "2023-07-01",
+    "DepartureTime": "1:00 ",
+    "ArrivalTime": "3:00 ",
+    "Fare": "400"
+  },
+  {
+    "BusNo": "DEF457",
+    "BusName": "Inter City Bus",
+    "Source": "Hyderabad",
+    "Destination": "Visakhapatnam",
+    "Date": "2023-07-01",
+    "DepartureTime": "1:00 ",
+    "ArrivalTime": "3:00 ",
+    "Fare": "253"
+  },
+  {
+    "BusNo": "DEF458",
+    "BusName": "Inter City Bus",
+    "Source": "Hyderabad",
+    "Destination": "Visakhapatnam",
+    "Date": "2023-07-01",
+    "DepartureTime": "1:00 ",
+    "ArrivalTime": "3:00 ",
+    "Fare": "250"
+  },
+  {
+    "BusNo": "DEF459",
+    "BusName": "Inter City Bus",
+    "Source": "Hyderabad",
+    "Destination": "Visakhapatnam",
+    "Date": "2023-07-01",
+    "DepartureTime": "1:00 ",
+    "ArrivalTime": "3:00 ",
+    "Fare": "250"
+  },
+
+  {
+    "BusNo": "ABC1234",
+    "BusName": "Inter City Smart Bus",
+    "Source": "Chennai",
+    "Destination": "Kolkata",
+    "Date": "2023-07-01",
+    "DepartureTime": "22:00 ",
+    "ArrivalTime": "12:00 ",
+    "Fare": "100"
+  },
+  {
+    "BusNo": "ABC12344",
+    "BusName": "Inter City Bus",
+    "Source": "Chennai",
+    "Destination": "Kolkata",
+    "Date": "2023-07-01",
+    "DepartureTime": "11:00 ",
+    "ArrivalTime": "18:00 ",
+    "Fare": "200"
+  },
+  {
+    "BusNo": "DEF4564",
+    "BusName": "Inter City Bus",
+    "Source": "Kolkata",
+    "Destination": "Chennai",
+    "Date": "2023-07-01",
+    "DepartureTime": "1:00 ",
+    "ArrivalTime": "3:00 ",
+    "Fare": "250"
+  },
+  {
+    "BusNo": "GHI7894",
+    "BusName": "Inter Smart Bus",
+    "Source": "Kolkata",
+    "Destination": "Bangalore",
+    "Date": "2023-03-31",
+    "DepartureTime": "8:00 ",
+    "ArrivalTime": "12:00 ",
+    "Fare": "300"
+  },
+  {
+    "BusNo": "JKL0124",
+    "BusName": "Inter City Bus",
+    "Source": "Bangalore",
+    "Destination": "Kolkata",
+    "Date": "2023-03-31",
+    "DepartureTime": "1:00 ",
+    "ArrivalTime": "5:00 ",
+    "Fare": "350"
+  },
+  {
+    "BusNo": "DEF454",
+    "BusName": "Inter City Smart Bus",
+    "Source": "Kolkata",
+    "Destination": "Uttrakhand",
+    "Date": "2023-07-01",
+    "DepartureTime": "1:00 ",
+    "ArrivalTime": "3:00 ",
+    "Fare": "250"
+  },
+  {
+    "BusNo": "DEF464",
+    "BusName": "Jhelum City Bus",
+    "Source": "Kolkata",
+    "Destination": "Chennai",
+    "Date": "2023-07-01",
+    "DepartureTime": "1:00 ",
+    "ArrivalTime": "3:00 ",
+    "Fare": "200"
+  },
+  {
+    "BusNo": "DEF564",
+    "BusName": "Govinda Smart Bus",
+    "Source": "Kolkata",
+    "Destination": "Chennai",
+    "Date": "2023-07-01",
+    "DepartureTime": "1:00 ",
+    "ArrivalTime": "3:00 ",
+    "Fare": "400"
+  },
+  {
+    "BusNo": "DEF4574",
+    "BusName": "Inter City Bus",
+    "Source": "Kolkata",
+    "Destination": "Chennai",
+    "Date": "2023-07-01",
+    "DepartureTime": "1:00 ",
+    "ArrivalTime": "3:00 ",
+    "Fare": "250"
+  },
+  {
+    "BusNo": "DEF4584",
+    "BusName": "Inter City Bus",
+    "Source": "Kolkata",
+    "Destination": "Chennai",
+    "Date": "2023-07-01",
+    "DepartureTime": "1:00 ",
+    "ArrivalTime": "3:00 ",
+    "Fare": "250"
+  },
+  {
+    "BusNo": "DEF4594",
+    "BusName": "Inter Smart City Bus",
+    "Source": "Kolkata",
+    "Destination": "Chennai",
+    "Date": "2023-07-01",
+    "DepartureTime": "1:00 ",
+    "ArrivalTime": "3:00 ",
+    "Fare": "250"
+  },
+
+  {
+    "BusNo": "ABC12349",
+    "BusName": "Inter City Smart Bus",
+    "Source": "Visakhapatnam",
+    "Destination": "Bangalore",
+    "Date": "2023-07-01",
+    "DepartureTime": "10:00 ",
+    "ArrivalTime": "12:00 ",
+    "Fare": "100"
+  },
+  {
+    "BusNo": "ABC12349",
+    "BusName": "Inter City Smart Bus",
+    "Source": "Visakhapatnam",
+    "Destination": "Bangalore",
+    "Date": "2023-07-01",
+    "DepartureTime": "10:30 ",
+    "ArrivalTime": "12:00 ",
+    "Fare": "280"
+  },
+
+  {
+    "BusNo": "ABC12349",
+    "BusName": "Inter City Smart Bus",
+    "Source": "Goa",
+    "Destination": "Pune",
+    "Date": "2023-07-01",
+    "DepartureTime": "10:00 ",
+    "ArrivalTime": "12:00 ",
+    "Fare": "100"
+  },
+  {
+    "BusNo": "ABC123449",
+    "BusName": "Inter City Bus",
+    "Source": "Goa",
+    "Destination": "Pune",
+    "Date": "2023-07-01",
+    "DepartureTime": "11:00 ",
+    "ArrivalTime": "18:00 ",
+    "Fare": "200"
+  },
+  {
+    "BusNo": "DEF45649",
+    "BusName": "Inter City Bus",
+    "Source": "Pune",
+    "Destination": "Goa",
+    "Date": "2023-07-01",
+    "DepartureTime": "1:00 ",
+    "ArrivalTime": "3:00 ",
+    "Fare": "250"
+  },
+  {
+    "BusNo": "GHI78949",
+    "BusName": "Inter Smart Bus",
+    "Source": "Pune",
+    "Destination": "Bangalore",
+    "Date": "2023-03-31",
+    "DepartureTime": "8:00 ",
+    "ArrivalTime": "12:00 ",
+    "Fare": "300"
+  },
+  {
+    "BusNo": "JKL01249",
+    "BusName": "Inter City Bus",
+    "Source": "Bangalore",
+    "Destination": "Pune",
+    "Date": "2023-03-31",
+    "DepartureTime": "1:00 ",
+    "ArrivalTime": "5:00 ",
+    "Fare": "350"
+  },
+  {
+    "BusNo": "DEF4549",
+    "BusName": "Inter City Smart Bus",
+    "Source": "Pune",
+    "Destination": "Uttrakhand",
+    "Date": "2023-07-01",
+    "DepartureTime": "1:00 ",
+    "ArrivalTime": "3:00 ",
+    "Fare": "250"
+  },
+  {
+    "BusNo": "DEF4649",
+    "BusName": "Jhelum City Bus",
+    "Source": "Pune",
+    "Destination": "Goa",
+    "Date": "2023-07-01",
+    "DepartureTime": "1:00 ",
+    "ArrivalTime": "3:00 ",
+    "Fare": "215"
+  },
+  {
+    "BusNo": "DEF5649",
+    "BusName": "Govinda Smart Bus",
+    "Source": "Pune",
+    "Destination": "Goa",
+    "Date": "2023-07-01",
+    "DepartureTime": "1:00 ",
+    "ArrivalTime": "3:00 ",
+    "Fare": "400"
+  },
+  {
+    "BusNo": "DEF45749",
+    "BusName": "Inter City Bus",
+    "Source": "Pune",
+    "Destination": "Goa",
+    "Date": "2023-07-01",
+    "DepartureTime": "1:00 ",
+    "ArrivalTime": "3:00 ",
+    "Fare": "253"
+  },
+  {
+    "BusNo": "DEF45849",
+    "BusName": "Inter City Bus",
+    "Source": "Pune",
+    "Destination": "Goa",
+    "Date": "2023-07-01",
+    "DepartureTime": "1:00 ",
+    "ArrivalTime": "3:00 ",
+    "Fare": "254"
+  },
+  {
+    "BusNo": "DEF45949",
+    "BusName": "Inter Smart City Bus",
+    "Source": "Pune",
+    "Destination": "Goa",
+    "Date": "2023-07-01",
+    "DepartureTime": "1:00 ",
+    "ArrivalTime": "3:00 ",
+    "Fare": "258"
+  }
+]
