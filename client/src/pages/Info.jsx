@@ -1,5 +1,5 @@
 import React, { useState } from "react";
-import { useLocation } from "react-router-dom";
+import { Navigate, useLocation } from "react-router-dom";
 // import PassengerForm from "../components/Info/PassengerForm";
 // import ContactForm from "../components/Info/ContactForm";
 import FareDetails from "../components/Info/FareDetails";
@@ -47,7 +47,7 @@ const Info = () => {
       })
       .catch((err) => console.log(err.message));
 
-    // navigate("/receipt");
+    Navigate("/receipt");
 
     //Save receipt data to server
     const receiptData = {
