@@ -84,26 +84,9 @@ const Info = () => {
     }));
   };
 
-  // const handleCheckout = () => {
-  // console.log("Pay button: ",selectedSeats);
-  // axios
-  //   .post(`${url}/stripe/create-checkout-session`, {
-  //     numSeats,
-  //     selectedBus,
-  //     selectedSeats,
-  //   })
-  //   .then((res) => {
-  //     if (res.data.url) {
-  //       window.location.href = res.data.url;
-  //     }
-  //   })
-  //   .catch((err) => console.log(err.message));
-  //     navigate("/receipt")
-  // };
-
   return (
     <>
-    <NavBar />
+      <NavBar />
       <form onSubmit={handleSubmit}>
         <div className="flex flex-col gap-3 p-5 bg-slate-100 md:flex-row ">
           {/* Bus Info */}
@@ -263,7 +246,7 @@ const Info = () => {
           </div>
         </div>
       </form>
-      < Footer />
+      <Footer />
     </>
   );
 };
