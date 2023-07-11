@@ -12,7 +12,7 @@ const ReceiptPage = () => {
   useEffect(() => {
     // Fetch receipt data from the server
     axios
-      .get(`${url}/receipt`)
+      .get(`${url}receipt`)
       .then((res) => {
         const receiptData = res.data;
         // Sort the receipt data in descending order based on creation timestamp
