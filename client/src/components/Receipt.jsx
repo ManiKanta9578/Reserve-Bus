@@ -3,7 +3,7 @@ import axios from "axios";
 import success from "../Images/success.png";
 import { PDFDocument, StandardFonts} from "pdf-lib";
 
-// const url = "https://reserve-bus-4alm.onrender.com/api";
+// const url = "http://localhost:5000/api";
 
 const ReceiptPage = () => {
   const [latestReceipt, setLatestReceipt] = useState(null);
@@ -12,7 +12,7 @@ const ReceiptPage = () => {
   useEffect(() => {
     // Fetch receipt data from the server
     axios
-      .get(`https://reserve-bus-4alm.onrender.com/api/receipt`)
+      .get(`http://localhost:5000/api/receipt`)
       .then((res) => {
         const receiptData = res.data;
         // Sort the receipt data in descending order based on creation timestamp
