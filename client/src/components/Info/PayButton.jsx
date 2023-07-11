@@ -1,7 +1,7 @@
 import React from "react";
 import axios from "axios";
 import { useNavigate } from "react-router-dom";
-const url = "http://localhost:5000/api";
+const url = "https://reserve-bus-4alm.onrender.com/api";
 
 
 const PayButton = ({ numSeats,selectedSeats,selectedBus }) => {
