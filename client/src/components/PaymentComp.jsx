@@ -50,7 +50,7 @@ const Payment = () => {
     <div className="min-h-screen flex items-center justify-center bg-purple-100">
       <div className="max-w-md w-full sm:w-80vw space-y-8 bg-white p-8 rounded-lg shadow-lg">
         <h2 className="mt-6 text-center text-3xl font-normal text-gray-900">
-          Pay ₹{selectedSeats.length * selectedBus.Fare + 150 - 50}
+          Pay <span className="mt-6 text-center text-3xl font-normal text-[rgba(233,115,72,0.961)] ">₹{selectedSeats.length * selectedBus.Fare + 150 - 50}</span> to confirm booking
         </h2>
         <form className="mt-8 space-y-6" onSubmit={handleSubmit}>
           <div className="rounded-md shadow-sm -space-y-px">
