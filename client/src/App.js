@@ -9,6 +9,7 @@ import { setBusData } from "./redux/slicer";
 import { useDispatch } from "react-redux";
 import LoginPage from "./pages/LoginPage";
 import RegisterPage from "./pages/Register";
+import Payment from "./pages/Payment";
 
 function App() {
   const dispatch = useDispatch();
@@ -30,6 +31,7 @@ function App() {
           <Route path="/" element={<HomePage />} />
           <Route path="/showbuses" element={<ShowBuses />} />
           <Route path="/info" element={<Info />} />
+          <Route path="/payment" element={<Payment />} />
           <Route path="/receipt" element={<Receipt />} />
           <Route path="/register" element={<RegisterPage />} />
           <Route path="/login" element={<LoginPage />} />

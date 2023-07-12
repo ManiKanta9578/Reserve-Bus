@@ -1,10 +1,7 @@
 import React, { useState } from "react";
-import { Navigate, useLocation } from "react-router-dom";
-// import PassengerForm from "../components/Info/PassengerForm";
-// import ContactForm from "../components/Info/ContactForm";
+import {  useLocation, useNavigate } from "react-router-dom";
 import FareDetails from "../components/Info/FareDetails";
 import BusInfo from "../components/Info/BusInfo";
-// import PayButton from "../components/Info/PayButton";
 import { setPassengerInfo, setContactInfo } from "../redux/slicer";
 import { useDispatch, useSelector } from "react-redux";
 import axios from "axios";
@@ -13,6 +10,7 @@ import Footer from "../components/Footer";
 const url = "http://localhost:5000/api";
 
 const Info = () => {
+  const navigate = useNavigate()
   const dispatch = useDispatch();
   const location = useLocation();
   const { selectedBus, selectedSeats } = location.state;
@@ -32,22 +30,12 @@ const Info = () => {
     dispatch(setPassengerInfo(passengerDetails));
     dispatch(setContactInfo(contactDetails));
 
-    // console.log("Pay button: ",selectedSeats);
-
-    await axios
-      .post(`${url}/stripe/create-checkout-session`, {
-        // numSeats,
+    navigate("/payment", {
+      state: {
         selectedBus,
         selectedSeats,
-      })
-      .then((res) => {
-        if (res.data.url) {
-          window.location.href = res.data.url;
-        }
-      })
-      .catch((err) => console.log(err.message));
-
-    Navigate("/receipt");
+      },
+    });
 
     //Save receipt data to server
     const receiptData = {

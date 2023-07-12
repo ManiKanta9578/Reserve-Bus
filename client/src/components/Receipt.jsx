@@ -3,11 +3,12 @@ import axios from "axios";
 import success from "../Images/success.png";
 import { PDFDocument, StandardFonts} from "pdf-lib";
 
-// const url = "http://localhost:5000/api";
 
 const ReceiptPage = () => {
   const [latestReceipt, setLatestReceipt] = useState(null);
   const [isLoading, setIsLoading] = useState(true);
+
+  
 
   useEffect(() => {
     // Fetch receipt data from the server

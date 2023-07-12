@@ -8,6 +8,7 @@ const initialState = {
   selectedBus: [],
   passengerInfo: [],
   contactInfo: null,
+  paymentDetails: null,
 };
 
 export const busSlicer = createSlice({
@@ -39,6 +40,9 @@ export const busSlicer = createSlice({
       console.log("function called");
       state.contactInfo = action.payload;
     },
+    setPaymentDetails(state, action) {
+      state.paymentDetails = action.payload;
+    },
   },
 });
 
@@ -49,6 +53,7 @@ export const {
   setAvailableBuses,
   setPassengerInfo,
   setContactInfo,
+  setPaymentDetails,
 } = busSlicer.actions;
 
 export default busSlicer.reducer;
