@@ -1,7 +1,7 @@
 import React, { useEffect, useState } from "react";
 import axios from "axios";
 
-const url = "http://localhost:5000/api";
+const url = "https://reserve-bus-23fn.onrender.com/api";
 
 const Receipt = () => {
   const [latestReceipt, setLatestReceipt] = useState(null);

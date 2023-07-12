@@ -7,7 +7,7 @@ import { useDispatch, useSelector } from "react-redux";
 import axios from "axios";
 import NavBar from "../components/NavBar";
 import Footer from "../components/Footer";
-const url = "http://localhost:5000/api";
+const url = "https://reserve-bus-23fn.onrender.com/api";
 
 const Info = () => {
   const navigate = useNavigate()

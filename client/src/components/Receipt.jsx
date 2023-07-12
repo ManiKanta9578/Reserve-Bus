@@ -13,7 +13,7 @@ const ReceiptPage = () => {
   useEffect(() => {
     // Fetch receipt data from the server
     axios
-      .get(`http://localhost:5000/api/receipt`)
+      .get(`https://reserve-bus-23fn.onrender.com/api/receipt`)
       .then((res) => {
         const receiptData = res.data;
         // Sort the receipt data in descending order based on creation timestamp
